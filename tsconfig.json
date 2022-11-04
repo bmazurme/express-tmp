@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es2019"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2016",
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "paths": {
+      "*": ["./src/*"]
+    },
+    "typeRoots": [
+      "@types/*.d.ts"
+    ],
+  },
+  "include": [
+    "src",
+    "src/**/*",
+    "@types/*.d.ts",
+    "./webpack.config.ts",
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "**/*.js",
+    "node_modules"
+  ]
+}
